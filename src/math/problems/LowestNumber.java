@@ -21,7 +21,7 @@ public class LowestNumber {
 		for (int Array : array){
 			if (Array < LowestNumber){
 				LowestNumber = Array;
-			};
+			}
 		}
 
 		ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();

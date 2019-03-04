@@ -23,9 +23,79 @@ public class UnitTestSorting {
 
         //Now implement Unit test for rest of the soring algorithm...................below
 
+        // insertion sort
 
+        sort.insertionSort(unSortedArray);
+        try{
+            Assert.assertEquals(sortedArray, unSortedArray, "Insertion sort array is not sorted!");
+        }catch (Exception ex){
+            ex.getMessage();
+        }
+        // Bubble sort
 
+        sort.bubbleSort(unSortedArray);
+        try {
+            Assert.assertEquals(sortedArray, unSortedArray, "Bubble sort array is not sorted!");
+        }catch(Exception ex){
+            ex.getMessage();
+        }
 
+        // Merge sort
 
+        sort.mergeSort(unSortedArray);
+        try{
+            Assert.assertEquals(sortedArray, unSortedArray, "Merge sort array is not sorted!");
+        }catch (Exception ex){
+            ex.getMessage();
+        }
+
+      /*
+        quick sort
+        sort.quickSort(unSortedArray);
+        */
+
+        //try{
+           //Assert.assertEquals(sortedArray, unSortedArray, "Quick sort array is not sorted!");
+        //}
+        //catch (Exception ex){
+          // ex.getMessage();
+      // }
+
+        // Heap sort
+
+        sort.heapSort(unSortedArray);
+        try{
+            Assert.assertEquals(sortedArray, unSortedArray, "Heap sort array is not sorted!");
+        }catch (Exception ex){
+            ex.getMessage();
+        }
+
+        // Bucket sort
+
+        sort.bucketSort(unSortedArray);
+        try{
+            Assert.assertEquals(sortedArray, unSortedArray, "Bucket sort array is not sorted!");
+        }catch (Exception ex){
+            ex.getMessage();
+        }
+
+        // get max
+
+        sort.getMax(unSortedArray);
+        try{
+            Assert.assertEquals(sortedArray, unSortedArray, "Quick sort array is not sorted!");
+        }catch (Exception ex){
+            ex.getMessage();
+        }
+
+        // shell sort
+
+        sort.shellSort(unSortedArray);
+        try{
+            Assert.assertEquals(sortedArray, unSortedArray, "Quick sort array is not sorted!");
+        }catch (Exception ex){
+            ex.getMessage();
+        }
     }
 }
+

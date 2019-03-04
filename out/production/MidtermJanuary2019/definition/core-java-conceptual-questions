@@ -100,20 +100,44 @@ A. this. is a reference variable in Java, it reference to the current object who
 
 What is "super" keyword in java? How many possible way can you use?
 A. "Super" keyword is used to call the constructor, methods and properties of a parent class.
-    super can be used to refer immediate parent class instance variable.
+      super can be used to refer immediate parent class instance variable.
       super can be used to invoke immediate parent class method.
       super() can be used to invoke immediate parent class constructor.
+
 What is JVM stand for ?
+A. Java Virtual Machine
+
 Is JVM platform independent?
+A. Yes.
+
 What version of java are you using?
+A. Java version "1.8.0_201"
+
 What is JAR stand for ?
+A.Java Archive is a package file format typically used to aggregate many Java class files and associated metadata and  resources (text, images, etc.) into one file for distribution.
+
 What is the difference between JDK and JVM?
+A.
+
 What is the difference between JVM and JRE?
 What is compile time and run time?
+A.  Compile time - the time period in which you are compiling the code
+    Run time - the time period in which you are running your piece of software
+
 What is heap?
+A. Runtime data area from which memory for all class instances and arrays are located.
+
 How java manage it's memory?
+A. Java objects reside in an area called the heap. The heap is created when the JVM starts up and may increase or decrease in size while the application runs.
+
 What is the difference between String, StringBuffer and StringBuilder?
+A. Once a String object is created it cannot be changed
+       StringBuffer is mutable means one can change the value of the object .
+       StringBuilder allows manipulating character sequences by appending, deleting and inserting characters and strings.
+
 What is Singleton class?
+A.
+
 What is Serialization and Deserialization?
 when to use transient variable in java?
 Difference between while and do..while loop?
