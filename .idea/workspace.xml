@@ -2,56 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b7dd39a-9918-4249-8d21-8e40d1fba121" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/design/AbstractEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/Departments.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/algorithm/Numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/algorithm/Numbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/algorithm/UnitTestSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/algorithm/UnitTestSorting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/codelab/status/CsvReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/codelab/status/CsvReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/datastructure/DataReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/datastructure/UseArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/datastructure/UseArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/datastructure/UseMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/datastructure/UseMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/datastructure/UseQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/datastructure/UseQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/definition/core-java-conceptual-questions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/definition/data-structure-questions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/design/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/design/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/design/EmployeeInfo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/design/EmployeeInfo$DateConversion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/design/EmployeeInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/design/FortuneEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/design/FortuneEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/json/parser/CnnAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/json/parser/CnnAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/math/problems/FindLowestDifference.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/math/problems/FindLowestDifference.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/math/problems/UnitTestingMath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/math/problems/UnitTestingMath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/parser/ProcessStudentInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/parser/ProcessStudentInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/parser/UnitTestingStudentProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/parser/UnitTestingStudentProfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/string/problems/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/string/problems/Anagram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/string/problems/DetermineLargestWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/string/problems/DetermineLargestWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/string/problems/DuplicateWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/string/problems/DuplicateWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/string/problems/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/string/problems/Palindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/string/problems/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/string/problems/Permutation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/string/problems/UnitTestingStringProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/string/problems/UnitTestingStringProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/UnitTestSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/UnitTestSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codelab/status/CsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codelab/status/CsvReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/datastructure/CollectionView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/datastructure/CollectionView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MidtermJanuary2019/design/AbstractEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidtermJanuary2019/design/AbstractEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/CollectionView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/CollectionView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datastructure/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/DataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/UseMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/UseQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/data-structure-questions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/design/FortuneEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/FortuneEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/parser/CnnAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/parser/CnnAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/problems/UnitTestingMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/UnitTestingMath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,10 +24,45 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/Departments.java">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/DataReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="-267">
+              <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1968#1976#0" expanded="true" />
+                <element signature="e#2024#2032#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/UseMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/UseQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/UseArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -87,17 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/design/EmployeeInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1070">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/AbstractEmployee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="3840">
+              <caret line="256" column="29" selection-start-line="256" selection-start-column="29" selection-end-line="256" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -105,10 +88,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/design/FortuneEmployee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+            <state relative-caret-position="386">
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/design/AbstractEmployee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/CollectionView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#356#373#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,13 +162,14 @@
         <option value="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" />
         <option value="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" />
         <option value="$PROJECT_DIR$/src/datastructure/UseArrayList.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/DataReader.java" />
         <option value="$PROJECT_DIR$/src/datastructure/UseQueue.java" />
         <option value="$PROJECT_DIR$/src/design/Months.java" />
         <option value="$PROJECT_DIR$/src/datastructure/UseMap.java" />
         <option value="$PROJECT_DIR$/src/design/Departments.java" />
         <option value="$PROJECT_DIR$/src/design/Employee.java" />
         <option value="$PROJECT_DIR$/src/design/AbstractEmployee.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/CollectionView.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/DataReader.java" />
         <option value="$PROJECT_DIR$/src/design/EmployeeInfo.java" />
         <option value="$PROJECT_DIR$/src/design/FortuneEmployee.java" />
       </list>
@@ -207,7 +213,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551930529517" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551931837027" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunDashboard">
@@ -223,12 +229,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.FortuneEmployee">
-    <configuration name="CsvReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codelab.status.CsvReader" />
+    <configuration name="CollectionView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.CollectionView" />
       <module name="MidtermJanuary2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codelab.status.*" />
+          <option name="PATTERN" value="datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,9 +297,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.FortuneEmployee" />
-        <item itemvalue="Application.UseMap" />
+        <item itemvalue="Application.CollectionView" />
         <item itemvalue="Application.UseQueue" />
-        <item itemvalue="Application.CsvReader" />
+        <item itemvalue="Application.UseMap" />
         <item itemvalue="Application.UseArrayList" />
       </list>
     </recent_temporary>
@@ -324,7 +330,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963988" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992764" weight="0.32825485" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992764" visible="true" weight="0.32825485" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39889196" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -332,7 +338,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32963988" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5014472" side_tool="true" weight="0.32963988" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32963988" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49855283" visible="true" weight="0.32963988" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49855283" weight="0.32963988" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2496382" />
@@ -614,38 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser/ProcessStudentInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2296#2305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/UseArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#395#403#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/CollectionView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#356#373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/codelab/status/CsvReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1095">
@@ -687,33 +661,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/UseQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/parser/ProcessStudentInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="94">
+          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2296#2305#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/UseMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-          <folding>
-            <element signature="e#481#489#0" expanded="true" />
-            <element signature="e#651#659#0" expanded="true" />
-            <element signature="e#767#775#0" expanded="true" />
-            <element signature="e#880#901#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -724,10 +679,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/UseArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/UseMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/UseQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267">
+          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1968#1976#0" expanded="true" />
+            <element signature="e#2024#2032#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/CollectionView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/AbstractEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -738,24 +747,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/EmployeeInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1070">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="3840">
+          <caret line="256" column="29" selection-start-line="256" selection-start-column="29" selection-end-line="256" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/design/FortuneEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+        <state relative-caret-position="386">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

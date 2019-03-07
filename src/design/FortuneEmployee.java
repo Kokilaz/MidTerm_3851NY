@@ -25,13 +25,13 @@ public class FortuneEmployee {
 
 
 
-		EmployeeInfo.nestedclass nestedrefff = employee3.new nestedclass();
+		EmployeeInfo.nestedclass nestedph = employee3.new nestedclass();
 
-		nestedrefff.nestedMethod();
+		nestedph.nestedMethod();
 
 
 
-		employee2.setName("People And Tech");
+		employee2.setName("Fordham University");
 
 		System.out.println(employee2.getName());
 

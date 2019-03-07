@@ -130,11 +130,11 @@ public class EmployeeInfo extends AbstractEmployee implements Employee  {
 
         Scanner sc  = new Scanner(System.in);
 
-        System.out.println("Please enter start date in format (example: May,2015): ");
+        System.out.println("Please enter start date in format (example: MARCH, 2015): ");
 
         String joiningDate = sc.nextLine();
 
-        System.out.println("Please enter today's date in format (example: August,2017): ");
+        System.out.println("Please enter today's date in format (example: APRIL, 2017): ");
 
         String todaysDate = sc.nextLine();
 
@@ -254,7 +254,7 @@ public class EmployeeInfo extends AbstractEmployee implements Employee  {
 
     public void breakTime(){
 
-        System.out.println("employees should get 30 min paid break a day");
+        System.out.println("Employees should get 60 min paid lunch break a day");
 
     }
 

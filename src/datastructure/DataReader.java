@@ -1,11 +1,14 @@
 package datastructure;
-/*
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.sql.SQLOutput;
+import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.Stack;
 import java.io.IOException;
+import java.util.List;
 
 public class DataReader {
 
@@ -25,51 +28,55 @@ public class DataReader {
 		 * Use For Each loop/while loop/Iterator to retrieve data.
 		 */
 
-		//String textFile = System.getProperty("user.dir") + "/src/data/self-driving-car.txt";
-		/*BufferedReader brf = null;
-		FileReader fr = null;
-		String fileText = "";
+		String textFile = System.getProperty("user.dir") + "/src/data/self-driving-car.txt";
+		System.out.println(textFile);
+                FileReader fr = null;
+                BufferedReader br = null;
+                String fileText = "";
 
-		try {
-		//	brf = new BufferedReader(new FileReader(textFile));
-			fr = new FileReader(textFile);
 
-		}
-		catch(FileNotFoundException e){
-			e.printStackTrace();
+                try {
+                fr = new FileReader(textFile);
+                System.out.println("your File has been found.");
+                } catch (Exception e) {
+                System.out.println("File not found");
+                }
 
-		}
-		try {
-			br = new BufferedReader(fr);
-			String data ="";
-			while ((data = brf.readLine()) != null)
-			{
-				System.out.println(data);
-				fileText += data;
-			}
-		}
-		//String text;
-		//while ((text = brf.readLine())!=null)
-		//{
-			//System.out.println(text);
-		//}
-        Stack<String> wrdMap = new Stack<String>();
-		String[] splitWords = textFile.split(" ");
+                try {
+                br = new BufferedReader(fr);
+                String data = "";
+                while ((data = br.readLine()) != null)
+                {
+                System.out.println(data);
+                fileText += data;
+                }
 
-		for (String word : splitWords)
-		{
-			Integer count = wrdMap.indexOf(splitWords);
+                } catch (Exception ex)
+                {
+                System.out.println("Your data is not there .");
+                }
 
-			if(count == null)
-			{
-				count = 0;
-			}
-			wrdMap.add(word);
-		}
-		wrdMap.push(textFile);
-		System.out.println(wrdMap);
+                String[] storeArray = fileText.split(" ");
 
-	}
+                Stack<String> myStack = new Stack<String>();
+        List<String> myList = new LinkedList<String>();
+        for (String element : storeArray) {
+        myStack.add(element);
+        myStack.push(element);
+        }
+        System.out.println("The LinkedList LIFO");
+        Iterator<String> it = myList.iterator();
+        while (it.hasNext()) {
+        System.out.println(it.next() + " ");
+        }
+        System.out.println(" The Stack LIFO");
 
-}
-*/
+        while (!myStack.isEmpty()) {
+        System.out.println(myStack.pop() + " "); }
+
+
+        }
+
+
+
+        }
