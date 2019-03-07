@@ -1,5 +1,19 @@
 package json.parser;
 
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.ArrayList;
+import java.util.List;
+
+
 public class CnnAPI {
     /*
       You can get API_KEY from this below link. Once you have the API_KEY, you can fetch the top-headlines news.
@@ -37,4 +51,57 @@ public class CnnAPI {
 	   Store into choice of your database and retrieve.
 
      */
-}
+
+    public static void main(String[] args) throws Exception {
+        String sURL = "http://newsapi.org/v2/top-headlines?sources=cnn&apiKey=0d9e35dfa3c140aab8bf9cdd70df957f";
+        NewsArticles news;
+        news = null;
+        List<NewsArticles> artList = new ArrayList<>();
+        URL urll = new URL(sURL);
+        URLConnection request = urll.openConnection();
+        request.connect();
+        JsonArray jsonArray = null, jsonArray2 = null;
+        JsonObject rootObj = null;
+        JsonParser jp = new JsonParser();
+        JsonElement root = jp.parse(new InputStreamReader((InputStream) request.getContent()));
+        if (root instanceof JsonObject) {
+            rootObj = root.getAsJsonObject();
+           // jsonArray2 = rootObj.getAsJsonArray("articles");
+        }
+        else if (root instanceof JsonArray)
+        {
+            jsonArray = root.getAsJsonArray();
+        }
+
+        if(jsonArray==null)
+            jsonArray=rootObj.getAsJsonArray("articles");
+       // System.out.println(jsonArray2.size());
+        for (int i = 0; i < jsonArray.size() - 1; i++)
+        {
+            try {
+                JsonObject jsonobject = jsonArray.get(i).getAsJsonObject();
+                String source = jsonobject.get("source").toString();
+                String author = jsonobject.get("author").toString();
+                String title = jsonobject.get("title").toString();
+                String description = jsonobject.get("description").toString();
+                String url = jsonobject.get("url").toString();
+                String urlToImage = jsonobject.get("urlToImage").toString();
+                String publishedAt = jsonobject.get("publishedAt").toString();
+                String content = jsonobject.get("content").toString();
+                //System.out.println(author + " " + title + " " + description + " " + url + " " + urlToImage + " " + publishedAt + " " + content);
+              //  news = new NewsArticles(source, author, title, description, url, urlToImage, publishedAt, content);
+                artList.add(news);
+            }
+            catch (Exception ex){
+            }
+            /*for (CnnAPI entry : artList) {
+                System.out.println(entry.getAuthor() + "\t  " + entry.getTitle() + "\t " + entry.getDescription() + "\t" + entry.getUrl() + " " +
+                        entry.getUrlToImage() + "\t" + entry.getPublishedAt() + "\t " + entry.getContent());*/
+            //System.out.println(author + " " + title + " " + description + " " + url + " " + urlToImage + " " + publishedAt + " " + content);
+            }
+        }
+
+    private static class NewsArticles {
+        //news = NewsArticles(source, author, title, description, url, urlToImage, publishedAt, content) {
+        }
+    }

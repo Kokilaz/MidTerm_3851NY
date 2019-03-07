@@ -136,30 +136,68 @@ A. Once a String object is created it cannot be changed
        StringBuilder allows manipulating character sequences by appending, deleting and inserting characters and strings.
 
 What is Singleton class?
-A.
+A. Singleton class is to control object creation by keeping private constructor
 
 What is Serialization and Deserialization?
+A. Serialization is a process of converting an object into a sequence of bytes which can be persisted to a disk or database or can be sent through streams. The reverse process of creating object from sequence of bytes is called deserialization
+
 when to use transient variable in java?
+A. the transient keyword to indicate to the Java virtual machine that the indicated variable is not part of the persistent state of the object.
+
 Difference between while and do..while loop?
+A. Contrast with the while loop, which tests the condition before the code within the block is executed, the do-while loop is an exit-condition loop. This means that the code must always be executed first and then the expression or test condition is evaluated. If it is true, the code executes the body of the loop again.
+
 What is Enum?
+A. Enum is a special Java type used to define collections of constants. More precisely, a Java enum type is a special kind of Java class. An enum can contain constants, methods etc.
+
 What is Iterator?
+A. An iterator is an object that represents a stream of data
+
 Which one will take more memory, an int or Integer?
+A. int and Integer both represents same number of values.
+
 Why is String Immutable in Java?
+A. string objects are immutable. Immutable simply means unmodifiable or unchangeable. Once string object is created its data or state can't be changed but a new string object is created.
+
 What is constructor chaining in Java?
+A. Constructor chaining is the process of calling one constructor from another constructor with respect to current object
+
 The difference between Serial and Parallel Garbage Collector?
+A. Serial Collector is mostly designed for single-threaded environments.
+       Parallel Garbage Collector is used for multi-threaded environments
 What is JIT stands for?
+A. JIT stand for "Just In Time".
 Explain Java Heap space and Garbage collection?
+A. Java objects reside in an area called the heap. The heap is created when the JVM starts up and may increase or decrease in size while the application runs. Garbage collection is the process of looking at heap memory, identifying which objects are in use and which are not, and deleting the unused objects.
+
 Can you guarantee the garbage collection process?
+A. No.
 What is the difference between stack and heap in Java?
+A. -Stack is used for static memory allocation
+   -Heap for dynamic memory allocation.
+   -Variables allocated on the heap have their memory allocated at run time and accessing this memory is a bit slower,
+   -The heap size is only limited by the size of virtual memory.
 What is reflection in java and why is it useful?
+A. Reflection is an API which is used to examine or modify the behavior of methods, classes, interfaces at runtime.
+ --Reflection gives us information about the class to which an object belongs and also the methods of that class which can be executed by using the object.
+
 what is multithreading in java?
+A.he main purpose of multithreading is to provide simultaneous execution of two or more parts of a program to maximum utilize the CPU time. A multithreaded program contains two or more parts that can run concurrently.
+
 What is the use of synchronization in Java?
+A. Synchronized keyword in Java is used to provide mutually exclusive access to a shared resource with multiple threads in Java. Synchronization in Java guarantees that no two threads can execute a synchronized method which requires the same lock simultaneously or concurrently.
+
 What is Framework?
+A. Frameworks generally refer to broad software development platforms
+
 What are the testing Framework available in java?
+A. Junit, TestNG
 Difference between jUnit and testNG?
+
 What are the dependencies for this project?
 what is dependency injection in java?
 What is static binding and dynamic binding?
+A. Static binding in Java occurs during compile time while dynamic binding occurs during runtime.
 
 
 

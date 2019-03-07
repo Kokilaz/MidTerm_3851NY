@@ -54,12 +54,12 @@ public class UnitTestSorting {
         sort.quickSort(unSortedArray);
         */
 
-        //try{
-           //Assert.assertEquals(sortedArray, unSortedArray, "Quick sort array is not sorted!");
-        //}
-        //catch (Exception ex){
-          // ex.getMessage();
-      // }
+        try{
+           Assert.assertEquals(sortedArray, unSortedArray, "Quick sort array is not sorted!");
+        }
+        catch (Exception ex){
+           ex.getMessage();
+       }
 
         // Heap sort
 

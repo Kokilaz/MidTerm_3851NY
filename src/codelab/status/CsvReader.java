@@ -64,8 +64,8 @@ public class CsvReader {
         }
         int size = roster.size();
         int sum = 0;
-        for(Trainee tr: roster){
-            sum +=tr.getNumberOfExercisesSolved();
+        for(Trainee student: roster){
+            sum +=student.getNumberOfExercisesSolved();
         }
         System.out.println("Average number of questions solved by each student: " + sum/size);
 
